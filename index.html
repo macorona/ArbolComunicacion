@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html ng-app='myApp'>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="app/recursos/css/style.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+
+  <title>Árbol de comunicación</title>
+</head>
+
+<body>
+  <nav-component></nav-component>
+  <div ng-view></div>
+  <footer-component></footer-component>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/3.8.0/firebase.js"></script>
+  <!--script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angularFire/2.3.0/angularfire.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+
+  <script src="app/app.js"></script>
+  <script src="app/route.js"></script>
+  <script src="app/controladores/navCtrl.js"></script>
+  <script src="app/controladores/footerCtrl.js"></script>
+  <script src="app/controladores/autenticarCtrl.js"></script>
+  <script src="app/controladores/registrarCtrl.js"></script>
+  <script src="app/controladores/inicioCtrl.js"></script>
+  <script src="app/controladores/empleadosCtrl.js"></script>
+  <script src="app/controladores/mensajeCtrl.js"></script>
+  <script src="app/controladores/frameCtrl.js"></script>
+
+</body>
+
+</html>

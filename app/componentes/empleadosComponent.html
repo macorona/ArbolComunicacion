@@ -1,0 +1,64 @@
+<table>
+  <tr width="90%">
+    <th width="50%">
+      <div>
+        <ul class="collapsible popout" data-collapsible="accordion" ng-show="isVisble">
+          <li ng-repeat="empleado in vm.relacionados">
+            <div class="collapsible-header"><i class="material-icons">persone</i>{{empleado.nombre}}</div>
+            <div class="collapsible-body">
+              <div class="col s12 m7">
+                <div class="card horizontal">
+                  <div class="card-image">
+                    <img src="/app/recursos/imagenes/{{empleado.imagen}}">
+                  </div>
+                  <div class="card-stacked">
+                    <div class="card-content">
+                      <p>
+                        Clave:{{empleado.clave}}<br />
+                        Puesto:{{empleado.puesto}} Rol:{{empleado.rol}}<br />
+                        Oficina:{{empleado.oficina}}<br />
+                        Email:{{empleado.email}}<br />
+                        Tel. Oficina:{{empleado.tel_ofi}} Tel. Casa:{{empleado.tel_casa}}<br />
+                        Movil:{{empleado.movil}}
+
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </th>
+    <th width="50%">
+
+      <div class="input-field col s12">
+        <select id="idLstEmpleados" class="browser-default" ng-model="empleado" ng-change="cambioEmpleado(empleado)">
+          <option value="">Seleccionar empleado</option>
+          <option ng-repeat="empleado in listaEmpleados.empleados" value="{{empleado}}">{{empleado.nombre}}
+          </option>
+        </select>
+      </div>
+
+      <empleado-directive ng-show="isVisble"></empleado-directive>
+
+      <div id="btnMail" class="centerElement">
+        <a class="waves-effect waves-light btn modal-trigger tooltipped" data-tooltip="Correo de aviso"><i
+            class="material-icons left">mail</i>Aviso</a>
+      </div>
+
+      <div id="modal1" class="modal">
+        <div class="modal-content">
+          <h4>Árbol de comunicación</h4>
+          <p>Se enviará un correo de aviso a sus contactos ¿está de acuerdo?</p>
+        </div>
+        <div class="modal-footer">
+          <a id="btnCancelar" class="modal-action modal-close waves-effect waves-red btn-flat">Cancelar</a>
+          <a id="btnEnviar" class="modal-action modal-close waves-effect waves-green btn-flat">Enviar</a>
+        </div>
+      </div>
+
+    </th>
+  </tr>
+</table>

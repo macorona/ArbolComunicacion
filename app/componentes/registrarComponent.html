@@ -1,0 +1,56 @@
+<div id="registrar" class="col-md-6 col-md-offset-3 centrarForm">
+  <h2>Registro</h2>
+  <form ng-submit="vm.registrar()" role="form">
+    <div class="form-group" ng-class="{ 'has-error': form.nombre.$dirty && form.nombre.$error.required }">
+      <label for="nombre">Nombre</label>
+      <input type="text" name="nombre" class="form-control" ng-model="vm.nombre" required />
+      <span ng-show="form.nombre.$dirty && form.nombre.$error.required" class="help-block">Nombre is required</span>
+    </div>
+    <div class="form-group">
+      <select id="idLstTitulos" class="browser-default" ng-model="titulo">
+        <option value="">Seleccionar Título</option>
+        <option ng-repeat="titulo in listaTitulos.titulos" value="{{titulo}}">{{titulo.titulo}}
+        </option>
+      </select>
+    </div>
+    <div class="form-group" ng-class="{ 'has-error': form.usuario.$dirty && form.usuario.$error.required }">
+      <label for="usuario">Usuario</label>
+      <input type="text" name="usuario" class="form-control" ng-model="vm.usuario" required />
+      <span ng-show="form.usuario.$dirty && form.usuario.$error.required" class="help-block">Usuario is required</span>
+    </div>
+    <div class="form-group" ng-class="{ 'has-error': form.password.$dirty && form.password.$error.required }">
+      <label for="password">Password</label>
+      <input type="password" name="password" class="form-control" ng-model="vm.password" required />
+      <span ng-show="form.password.$dirty && form.password.$error.required" class="help-block">Password is
+        required</span>
+    </div>
+    <div class="form-group" ng-class="{ 'has-error': form.confPassword.$dirty && form.confPassword.$error.required }">
+      <label for="confPassword">Confirm Password</label>
+      <input type="password" name="confPassword" class="form-control" ng-model="vm.confPassword" required />
+      <span ng-show="form.confPassword.$dirty && form.confPassword.$error.required" class="help-block">Confirm Password
+        is required</span>
+    </div>
+    <div class="form-group" align="left">
+      <p>Seleccionar Genero</p>
+      <input type="radio" id="male" name="genero" value="male">
+      <label for="male">Male</label><br>
+      <input type="radio" id="female" name="genero" value="female">
+      <label for="female">Female</label><br>
+      <input type="radio" id="other" name="genero" value="other">
+      <label for="other">Other</label>
+    </div>
+    <div class="form-group" align="left">
+      <p>Seleccionar Rango de Edad</p>
+      <input type="radio" id="age1" name="edad" value="30">
+      <label for="age1">0 - 30</label><br>
+      <input type="radio" id="age2" name="edad" value="60">
+      <label for="age2">31 - 60</label><br>
+      <input type="radio" id="age3" name="edad" value="100">
+      <label for="age3">61 - 100</label><br>
+    </div>
+    <div class="text-center mt-4">
+      <button id="btnProcesoRegistrar" ng-disabled="form.$invalid || vm.dataLoading"
+        class="btn btn-unique">Registrar</button>
+    </div>
+  </form>
+</div>

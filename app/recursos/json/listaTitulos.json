@@ -1,0 +1,9 @@
+{
+    "institucion": "Banco de México",
+    "titulos": [{"titulo":"Abogado"},
+        {"titulo":"Ingeniero"},
+        {"titulo":"Licenciado"},
+        {"titulo":"Auditor"},
+        {"titulo":"Contralor"}
+    ]
+}

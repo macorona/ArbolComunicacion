@@ -1,0 +1,96 @@
+{
+    "institucion": "Banco Amigo",
+    "empleados": [
+        {
+            "nombre": "Cuahutémoc Sanchez Peña",
+            "clave": "F34563",
+            "puesto": "Lider de especialidad",
+            "oficina": "Sbg. Análisis y Desarrollo",
+            "rol": "Principal",
+            "email": "cportas@bancoamigo.com",
+            "tel_ofi": "5552370000",
+            "tel_casa": "552945035",
+            "movil": "5523569825",
+            "imagen": "portas.jpg",
+            "grupo":"P"
+        },
+        {
+            "nombre": "Marco Antonio Corona Ruiz",
+            "clave": "C45674",
+            "puesto": "Analista de Sistemas",
+            "oficina": "Sbg. Análisis y Desarrollo",
+            "rol": "Suplente",
+            "email": "macorona@bancoamigo.com",
+            "tel_ofi": "52372000",
+            "tel_casa": "53430046",
+            "movil": "5522235678",
+            "imagen": "corona.jpg",
+            "grupo":"P"
+        },
+        {
+            "nombre": "Arturo Garcia León",
+            "clave": "Z13549",
+            "puesto": "Analista de Sistemas",
+            "oficina": "Sbg. Análisis y Desarrollo",
+            "rol": "Suplente",
+            "email": "carlos.garcia@bancoamigo.com",
+            "tel_ofi": "52372000",
+            "tel_casa": "34562389",
+            "movil": "5587343356",
+            "imagen": "rico.jpg",
+            "grupo":"P"
+        },
+        {
+            "nombre": "Solange Hernández Barajas",
+            "clave": "R01599",
+            "puesto": "Lider de especialidad",
+            "oficina": "Sbg. Análisis y Desarrollo",
+            "rol": "Principal",
+            "email": "shernandez@bancoamigo.com",
+            "tel_ofi": "52372000",
+            "tel_casa": "56244322",
+            "movil": "551206562",
+            "imagen": "solange.jpg",
+            "grupo":"H"
+        },
+        {
+            "nombre": "Diego Domínguez Rubio",
+            "clave": "W13532",
+            "puesto": "Analista de Sistemas",
+            "oficina": "Sbg. Análisis y Desarrollo",
+            "rol": "Suplente",
+            "email": "diego.hernandez@bancoamigo.com",
+            "tel_ofi": "52372000",
+            "tel_casa": "38234568",
+            "movil": "5512345678",
+            "imagen": "dieguo.jpg",
+            "grupo":"H"
+        },
+        {
+            "nombre": "Luis Chávez López",
+            "clave": "L02143",
+            "puesto": "Analista de Sistemas",
+            "oficina": "Sbg. Análisis y Desarrollo",
+            "rol": "Suplente",
+            "email": "luis.meza@bancoamigo.com",
+            "tel_ofi": "52372000",
+            "tel_casa": "127834097",
+            "movil": "558434251001",
+            "imagen": "luis.jpg",
+            "grupo":"H"
+        },
+        {
+            "nombre": "Mario Hernández Gómez",
+            "clave": "A12346",
+            "puesto": "Analista de Sistemas",
+            "oficina": "Sbg. Análisis y Desarrollo",
+            "rol": "Suplente",
+            "email": "mario.hernandez@bancoamigo.com",
+            "tel_ofi": "52372000",
+            "tel_casa": "32456782",
+            "movil": "5523680905",
+            "imagen": "mario.jpg",
+            "grupo":"H"
+        }
+    ]
+}

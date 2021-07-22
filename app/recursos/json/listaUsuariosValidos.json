@@ -1,0 +1,11 @@
+{
+    "institucion": "Banco de México",
+    "usuarios": [
+        {
+            "nombre":"Marco Corona",
+            "titulo":"Ingeniero",
+            "usuario":"macorona",
+            "password":"Curso2021"
+        }
+    ]
+}

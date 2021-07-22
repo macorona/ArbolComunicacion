@@ -1,0 +1,127 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+html {
+  font-family: GillSans, Calibri, Trebuchet, sans-serif;
+}
+
+nav, footer {
+  background-color: #182b47 !important;
+}
+
+iframe { 
+  border-style: dotted;
+  border-color: blue;
+}
+
+#idFrameRoot {
+  width: 900px;
+  height: 700px;
+  border-style: dotted;
+  border-color: blue;
+}
+
+.margen {
+  border: 3px solid #182b47;
+}
+
+.margenSup {
+  margin-top: 20px;
+  padding-top: 20px; 
+}  
+
+#imagenBMSup {
+  background-image: url("app/recursos/imagenes/imagenBancoMexico.jpg");
+}
+
+#imagenBMInf {
+    background-image: url("app/recursos/imagenes/imagenBancoMexico2.jpg");
+}
+
+#imagenEmpleado {
+  float: right;
+  margin: 0px 0px 15px 20px;
+  width: "50px" !important;
+  height: "50px"!important;
+}
+
+.centerElement {
+  text-align: center;
+}
+
+.section {
+  background-color: #182b47;
+}
+
+.btn {
+  background-color: #182b47;
+}
+
+.modal {
+  max-height: 90%;
+}
+
+.modal-form-row {
+  margin-bottom: 0px;
+}
+
+/*#autenticar {
+  width: 25%;
+  text-align: center;
+  margin: 0 auto;
+}*/
+
+.centrarForm {
+  width: 25%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#about span {
+  width: 50%;
+}
+
+.margen-link-footer {
+  margin: 0 15px 0 15px;
+}
+
+/*
+.snap-drawer-left.expanded { 
+  overflow:visible;
+  z-index:5;
+}*/
+
+/*
+nav {
+    height: 30px;
+    line-height: 30px;
+}
+
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+    height: 30px;
+    line-height: 30px;
+}
+
+nav .button-collapse i {
+    height: 30px;
+    line-height: 30px;
+}
+
+nav .brand-logo { 
+    font-size: 1.6rem; 
+}
+
+@media only screen and (min-width: 601px){
+    nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+        height: 30px;
+        line-height: 30px;
+    }
+}
+*/

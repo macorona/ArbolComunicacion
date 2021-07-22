@@ -1,0 +1,32 @@
+
+<nav>
+  <div class="nav-wrapper">
+    <a href="" class="brand-logo margen-link-footer">Banco Amigo</a>
+      <!--ul id="nav-mobile" class="dropdown-menu right hide-on-small-only"-->
+      <ul id="nav-mobile" class="dropdown-menu right hide-on-small-only" ng-show="IsVisible">  
+        <li><a href="#!/home"><i class="material-icons">home</i></a></li>
+        <li><a href="#!/empleados"><i class="material-icons">people</i></a></li>
+        <li><a id="idMensajes" href="#!/mensajes"><i class="material-icons">assignment</i></a></li>
+        <li><a href="#!/autenticar" ng-click="ocultarMenu()"><i class="material-icons">login</i></a></li>
+        <li><a id="idMaterial" class="dropdown-button btn" href="" data-activates="subMenu"><i class="material-icons right">source</i></a></li>      
+      </ul>
+
+      <ul id="nav-mobile" class="right hide-on-med-and-up">
+        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Menu<i class="material-icons right">arrow_drop_down</i></a></li>
+      </ul>
+  </div>
+</nav>
+
+<ul id="dropdown1" class="dropdown-content">
+    <li><a href="#!/home"><i class="material-icons">home</i></a></li>
+    <li><a href="#!/empleados"><i class="material-icons">people</i></a></li>
+    <li><a href="#!/mensajes"><i class="material-icons">assignment</i></a></li>
+    <li><a href="#!/autenticar"><i class="material-icons">login</i></a></li>
+</ul> 
+
+<ul id="subMenu" class="dropdown-content">
+  <li><a id="idSelenium" href="https://www.selenium.dev/">Selenium</a></li>
+  <li><a id="idBDD" href="https://en.wikipedia.org/wiki/Behavior-driven_development">BDD</a></li>
+  <li><a id="idCI" href="https://en.wikipedia.org/wiki/Continuous_integration">CI</a></li>
+  <li><a id="idFile" href="#!/frames">Upload</a></li>
+</ul>
